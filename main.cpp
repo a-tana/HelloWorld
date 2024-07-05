@@ -1,6 +1,6 @@
-#include <fmt/core.h>
+#include "my_sample_lib.h"
 
 int main() {
-    fmt::print("Hello World!\n");
+    greet("vcpkg!");
     return 0;
 }
